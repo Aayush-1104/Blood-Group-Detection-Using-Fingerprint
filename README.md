@@ -82,38 +82,25 @@ Total Images = 6000+
 1. Clone the Repository:
 ```bash
 git clone https://github.com/Aayush-1104/Blood-Group-Detection-Using-Fingerprint.git
+
 Install Dependencies:
-
-bash
-Copy
-Edit
+(bash)
 pip install -r requirements.txt
+
 Run Flask App:
-
-bash
-Copy
-Edit
+(bash)
 python app.py
-Open in Browser:
 
-cpp
-Copy
-Edit
+Open in Browser:
+(cpp)
 http://127.0.0.1:5000/
+
 Model Files
 Note: Model files are not uploaded here due to GitHub size restrictions.
 
-You can download the trained model files from:
-
-bash
-Copy
-Edit
-Google Drive Link: [Add your drive link here]
-Final Output
+Final Output:
 Upload Fingerprint Image
 
 Predict Blood Group
 
 Clean and Simple Web UI
-
-
