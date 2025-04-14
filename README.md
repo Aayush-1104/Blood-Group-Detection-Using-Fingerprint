@@ -1,4 +1,4 @@
-## Blood Group Detection Using Fingerprint
+# Blood Group Detection Using Fingerprint
 This project is aimed at detecting a person's Blood Group using their Fingerprint Image with the help of Deep Learning and Flask Deployment.
 
 It leverages a Convolutional Neural Network (CNN) model based on ResNet50 architecture to classify fingerprint images into 8 Blood Group categories:
