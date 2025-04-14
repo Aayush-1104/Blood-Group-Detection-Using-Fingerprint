@@ -1,11 +1,40 @@
-# Blood Group Detection Using Fingerprint
-
+## Blood Group Detection Using Fingerprint
 This project is aimed at detecting a person's Blood Group using their Fingerprint Image with the help of Deep Learning and Flask Deployment.
 
+It leverages a Convolutional Neural Network (CNN) model based on ResNet50 architecture to classify fingerprint images into 8 Blood Group categories:
+
+A+, A-, B+, B-, AB+, AB-, O+, O-
+
+This project automates Blood Group identification in a non-invasive and rapid manner. It can have potential applications in:
+
+Healthcare Systems
+
+Smart Medical Devices
+
+Biometric-based Identification Systems
+
+A simple Web Interface is provided using Flask to upload Fingerprint images and view the predicted Blood Group.
 ---
 
 ## Project Structure
-BloodGrp_Using_Fingerprint/ │ ├── dataset_blood_group/ # Dataset Images (Fingerprint categorized in 8 Blood Groups) │ ├── BldGrp_detect.ipynb # Initial Model Training Notebook using ResNet50 │ ├── 03_Fine_Tuning_ResNet50.ipynb # Model Fine-Tuning & Analysis Notebook │ ├── app.py # Flask Application for Deployment │ ├── templates/ # Frontend UI (HTML Files) │ ├── index.html │ └── result.html │ ├── requirements.txt # Python Dependencies └── .gitignore # Ignore Model Files (.h5, .keras, .tar.gz)
+BloodGrp_Using_Fingerprint/
+│
+├── dataset_blood_group/        # Dataset Images (Fingerprints categorized into 8 Blood Groups)
+│
+├── BldGrp_detect.ipynb         # Initial Model Training using ResNet50
+│
+├── 03_Fine_Tuning_ResNet50.ipynb  # Fine-Tuning & Model Improvement
+│
+├── app.py                      # Flask Deployment Code
+│
+├── templates/                  # HTML Templates for UI
+│   ├── index.html
+│   └── result.html
+│
+├── requirements.txt            # Python Dependencies
+│
+└── README.md                   # Project Documentation
+
 
 yaml
 Copy
